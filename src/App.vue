@@ -1,9 +1,15 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
+import { Alert, MainButton } from 'vue-tg';
+const handleMainButton = () => {
+  
+}
 </script>
 
 <template>
   <div>
+    <Alert message="Hello World! from Toodle Doo App"/>
+    <MainButton @click="handleMainButton" />
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
