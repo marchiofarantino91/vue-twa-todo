@@ -9,7 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "telegraf": "^4.16.3",
     "vue": "^3.4.29",
+    "vue-router": "^4.4.0",
     "vue-tg": "^0.6.1"
   },
   "devDependencies": {
