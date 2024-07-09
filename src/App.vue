@@ -5,15 +5,20 @@ import { Alert } from 'vue-tg';
 
 <template>
   <div>
-    <Alert message="Hello World! from Toodle Doo App"/> 
+    <!-- <Alert message="Hello World! from Toodle Doo App"/>  -->
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
+    <nav>
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>
+    </nav>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  <RouterView />
+  <!-- <HelloWorld msg="Vite + Vue" /> -->
 </template>
 
 <style scoped>
